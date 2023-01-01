@@ -15,9 +15,9 @@
     ?>
   </title>
   <meta charset="UTF-8">
-  <meta name="description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2018 20 Temmuz-4 Ağustos tarihleri arasında Bolu Abant İzzet Baysal Üniversitesinde. Başvurular 15-30 Haziran tarihlerinde.">
+  <meta name="description" content="Mustafa Akgül Özgür Yazılım Kış Kampı 2023 4-8 Şubat tarihleri arasında Eskişehir Osmangazi Üniversitesinde. Başvurular 10-15 Ocak tarihlerinde.">
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2018 20 Temmuz-4 Ağustos tarihleri arasında Bolu Abant İzzet Baysal Üniversitesinde. Başvurular 15-30 Haziran tarihlerinde." />
+  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Kış Kampı 2023 4-8 Şubat tarihleri arasında Eskişehir Osmangazi Üniversitesinde. Başvurular 10-15 Ocak tarihlerinde." />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
   <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/ozgur-yazilim-yaz-kampi-2018.jpg" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
@@ -37,18 +37,15 @@
   <div class="container">
     <div class="row">
       <div class="header-logo col-md-6 col-xs-12">
-        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/lyk-logo.png" alt=""></a>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo.png" alt=""></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
           <a href="http://www.lkd.org.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/lkd.png" height="120" width="120" alt="">
+            <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png" height="74" width="74" alt="">
           </a>
-          <a href="http://www.ibu.edu.tr/tr" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/izzet-baysal.png" alt="">
-          </a>
-          <a href="https://www.pardus.org.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/parsus.png" alt="">
+          <a href="http://www.ogu.edu.tr/" target="_blank">
+            <img src="<?php bloginfo("template_url"); ?>/assets/images/ogu.png"  height="74" width="74" alt="">
           </a>
         </div>
       </div>

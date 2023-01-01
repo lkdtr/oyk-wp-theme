@@ -21,7 +21,7 @@ Template Name: Hakkında
         <?php endif; ?>
       </div>
       <div class="about-image col-xs-9 col-md-push-2 col-xs-push-1 col-md-3 col-sm-6 col-sm-push-0">
-        <img src="<?php bloginfo("template_url"); ?>/assets/images/lyk2018logo.png" alt="">
+        <img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo-kare.png" alt="">
       </div>
     </div>
   </div>
