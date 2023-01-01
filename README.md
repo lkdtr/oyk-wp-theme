@@ -1,2 +1,2 @@
 # oyk-wp-theme
-Mustafa Akgül Özgür Yazılım Yaz Kampı 2018 için hazırlanan WordPress teması.
+Mustafa Akgül Özgür Yazılım Kış Kampı 2023 için hazırlanan WordPress teması.
