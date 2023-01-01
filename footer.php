@@ -4,7 +4,7 @@
       <div class="col-md-4">
         <div class="footer-widget twitter-widget">
           <h2>Son Tweetler</h2>
-          <?php echo do_shortcode("[custom-twitter-feeds feed=1]); ?>
+          <?php echo do_shortcode("[custom-twitter-feeds feed=1]"); ?>
         </div>
       </div>
       <div class="col-md-4">
@@ -40,7 +40,7 @@
 <script src="<?php bloginfo("template_url"); ?>/assets/js/owl.carousel.min.js"></script>
 <script src="<?php bloginfo("template_url"); ?>/assets/js/modernizr.min.js"></script>
 <script src="<?php bloginfo("template_url"); ?>/assets/js/jquery.fancybox.min.js"></script>
-<script src="<?php bloginfo("template_url"); ?>/assets/js/main.min.js"></script>
+<script src="<?php bloginfo("template_url"); ?>/assets/js/main.min.js?2023-kis"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
