@@ -3,7 +3,7 @@
 <div class="page">
   <div class="container">
     <div class="row">
-      <article class="page-content col-md-8">
+      <article class="page-content col-md-9">
         <h1 class="page-content-title"><?php the_title(); ?></h1>
         <?php if (function_exists('the_breadcrumb')) the_breadcrumb(); ?>
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -12,7 +12,7 @@
           <p><?php _e('Sonuç Bulunamadı.'); ?></p>
           <?php endif; ?>
       </article>
-      <aside class="page-sidebar col-md-4">
+      <aside class="page-sidebar col-md-3">
         <?php get_sidebar(); ?>
       </aside>
     </div>
