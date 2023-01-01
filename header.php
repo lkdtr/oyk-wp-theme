@@ -11,7 +11,7 @@
     if ( $site_description && ( is_home() || is_front_page() ) )
       echo " | $site_description";
     if ( $paged >= 2 || $page >= 2 )
-      echo ' | ' . sprintf( _( 'Page %s', 'sipsi' ), max( $paged, $page ) );n
+      echo ' | ' . sprintf( _( 'Page %s', 'sipsi' ), max( $paged, $page ) );
     ?>
   </title>
   <meta charset="UTF-8">
