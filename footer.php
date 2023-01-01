@@ -4,7 +4,7 @@
       <div class="col-md-4">
         <div class="footer-widget twitter-widget">
           <h2>Son Tweetler</h2>
-          <?php echo do_shortcode("[custom-twitter-feeds]"); ?>
+          <?php echo do_shortcode("[custom-twitter-feeds feed=1]); ?>
         </div>
       </div>
       <div class="col-md-4">
