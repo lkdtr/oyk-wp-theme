@@ -593,8 +593,8 @@ footer .footer-widget-supporter .supporter-list-item img{
     opacity:.5
 }
 .jumbotron .calendar table tbody tr.current{
-    background:rgba(7,153,146,.7)
-}
+    background:#3693e6;
+ }
 .jumbotron .calendar table tbody tr.current td{
     color:#fff;
     font-weight:700

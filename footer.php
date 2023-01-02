@@ -26,9 +26,9 @@
       <div class="col-md-4">
         <div class="footer-widget">
           <h2>Ana Sponsor</h2>
-          <div class="col-xs-6 main-sponsor text-center" style="background: #fff;border:1px solid #fff;border-radius: 5px;padding:15px;margin-bottom: 15px;">
+          <!-- div class="col-xs-6 main-sponsor text-center" style="background: #fff;border:1px solid #fff;border-radius: 5px;padding:15px;margin-bottom: 15px;">
             
-          </div>
+          </div -->
         </div>
       </div>
     </div>
