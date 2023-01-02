@@ -31,7 +31,7 @@ Template Name: Hakkında
   <div class="container">
     <h1>Geçmiş Yıllar</h1>
     <div class="row">
-      <div class="past-years-slider col-md-6 col-xs-12 col-sm-5">
+      <div class="past-years-slider col-md-5 col-xs-12 col-sm-5">
         <div class="owl-carousel owl-theme">
           <div class="item">
             <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/kis2020-1.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/kis2020-1.jpg"></a>
@@ -47,7 +47,10 @@ Template Name: Hakkında
           </div>
         </div>
       </div>
-            <div class="past-years-slider col-md-6 col-xs-12 col-sm-5">
+      
+      <div class="col-md-2 col-xs-12 col-sm-5"></div>
+      
+      <div class="past-years-slider col-md-5 col-xs-12 col-sm-5">
         <div class="owl-carousel owl-theme">
           <div class="item">
             <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-1.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-1.jpg"></a>
@@ -65,7 +68,7 @@ Template Name: Hakkında
       </div>
    </div>
    <div class="row">
-      <div class="past-years-list col-md-push-1 col-md-6 col-xs-12 col-sm-7">
+      <div class="past-years-list col-md-6 col-xs-12 col-sm-5">
         <ul>
 	  <li><a href="https://kamp.linux.org.tr/2022/">Mustafa Akgül Özgür Yazılım Yaz Kampı 2022</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li>Mustafa Akgül Özgür Yazılım Kış Kampı 2020 / Anadolu Üniversitesi</li>
@@ -90,7 +93,7 @@ Template Name: Hakkında
         </ul>
      </div>
      
-      <div class="past-years-list col-md-push-1 col-md-6 col-xs-12 col-sm-7">
+      <div class="past-years-list col-md-6 col-xs-12 col-sm-5">
         <ul>
 
           <li>Linux Yaz Kampı 2013 / Bolu Abant İzzet Baysal Üniversitesi</li>
