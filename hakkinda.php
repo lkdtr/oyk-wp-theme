@@ -29,6 +29,7 @@ Template Name: Hakkında
 
 <section class="past-years">
   <div class="container">
+    <h1>Geçmiş Yıllar</h1>
     <div class="row">
       <div class="past-years-slider col-md-6 col-xs-12 col-sm-5">
         <div class="owl-carousel owl-theme">
@@ -46,8 +47,25 @@ Template Name: Hakkında
           </div>
         </div>
       </div>
-      <div class="past-years-list col-md-push-1 col-md-5 col-xs-12 col-sm-7">
-        <h1>Geçmiş Yıllar</h1>
+            <div class="past-years-slider col-md-6 col-xs-12 col-sm-5">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-1.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-1.jpg"></a>
+          </div>
+          <div class="item">
+            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-2.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-2.jpg"></a>
+          </div>
+          <div class="item">
+            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-3.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-3.jpg"></a>
+          </div>
+          <div class="item">
+            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-4.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/yaz2022-4.jpg"></a>
+          </div>
+        </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="past-years-list col-md-push-1 col-md-6 col-xs-12 col-sm-7">
         <ul>
 	  <li><a href="https://kamp.linux.org.tr/2022/">Mustafa Akgül Özgür Yazılım Yaz Kampı 2022</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li>Mustafa Akgül Özgür Yazılım Kış Kampı 2020 / Anadolu Üniversitesi</li>
@@ -68,14 +86,19 @@ Template Name: Hakkında
           <li>Konferans Öncesi Kurslar 2015 / Eskişehir Anadolu Üniversitesi</li>
               
           <li>Linux Yaz Kampı 2014 / Bolu Abant İzzet Baysal Üniversitesi</li>
-          <li>Konferans Öncesi Kurslar  2014 / Mersin Üniversitesi</li>
-              
+          <li>Konferans Öncesi Kurslar  2014 / Mersin Üniversitesi</li>            
+        </ul>
+     </div>
+     
+      <div class="past-years-list col-md-push-1 col-md-6 col-xs-12 col-sm-7">
+        <ul>
+
           <li>Linux Yaz Kampı 2013 / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li>Konferans Öncesi Kurslar  2013 / Antalya Akdeniz Üniversitesi</li>
               
           <li>Linux Yaz Kampı 2012 / Bolu Abant İzzet Baysal Üniversitesi</li>
           <li>Konferans Öncesi Kurslar  2012 / Uşak Üniversitesi</li>
-              
+         
           <li>Linux Yaz Kampı 2011 / Düzce Üniversitesi</li>
           <li>Konferans Öncesi Kurslar  2011 / Malatya İnönü Üniversitesi</li>
               
