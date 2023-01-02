@@ -33,33 +33,37 @@ Template Name: Hakkında
       <div class="past-years-slider col-md-6 col-xs-12 col-sm-5">
         <div class="owl-carousel owl-theme">
           <div class="item">
-            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"></a>
+            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/kis2020-1.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/kis2020-1.jpg"></a>
           </div>
           <div class="item">
-            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"></a>
+            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/kis2020-2.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/kis2020-2.jpg"></a>
           </div>
           <div class="item">
-            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"></a>
+            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/kis2020-3.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/kis2020-3.jpg"></a>
           </div>
           <div class="item">
-            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"></a>
-          </div>
-          <div class="item">
-            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/lyk-slider.jpg"></a>
+            <a data-fancybox="gallery" href="<?php bloginfo("template_url"); ?>/assets/images/kis2020-4.jpg"><img src="<?php bloginfo("template_url"); ?>/assets/images/kis2020-4.jpg"></a>
           </div>
         </div>
       </div>
       <div class="past-years-list col-md-push-1 col-md-5 col-xs-12 col-sm-7">
         <h1>Geçmiş Yıllar</h1>
         <ul>
-          <li><a href="http://kamp.linux.org.tr/2017/">Linux Yaz Kampı 2017</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
-          <li><a href="http://kamp.linux.org.tr/2016/">Linux Yaz Kampı 2016</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
-          <li><a href="http://kamp.linux.org.tr/2015/">Linux Yaz Kampı 2015</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
-          <li><a href="http://kamp.linux.org.tr/2014/">Linux Yaz Kampı 2014</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
-          <li><a href="http://kamp.linux.org.tr/2013/">Linux Yaz Kampı 2013</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
-          <li><a href="http://kamp.linux.org.tr/2012/">Linux Yaz Kampı 2012</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
-          <li><a href="http://kamp.linux.org.tr/2011/">Linux Yaz Kampı 2011</a> / Düzce Üniversitesi</li>
-          <li><a href="http://kamp.linux.org.tr/2010/">Linux Yaz Kampı 2010</a> / Işık Üniversitesi Şile Yerleşkesi</li>
+	  <li><a href="https://kamp.linux.org.tr/2022/">Mustafa Akgül Özgür Yazılım Yaz Kampı 2022</a> / Bolu Abant İzzet Baysal Üniversitesi</li>
+          <li>Mustafa Akgül Özgür Yazılım Kış Kampı 2020 / Anadolu Üniversitesi</li>
+	  <li>Mustafa Akgül Özgür Yazılım Yaz Kampı 2019 / Bolu Abant İzzet Baysal Üniversitesi</li>
+	  <li>Mustafa Akgül Özgür Yazılım Kış Kampı 2019 / Ordu Üniversitesi</li>
+	  
+	  <li>Özgür Yazılım Yaz Kampı 2018 / Bolu Abant İzzet Baysal Üniversitesi</li>
+          
+          <li>Linux Yaz Kampı 2017 / Bolu Abant İzzet Baysal Üniversitesi</li>
+          <li>Linux Yaz Kampı 2016 / Bolu Abant İzzet Baysal Üniversitesi</li>
+          <li>Linux Yaz Kampı 2015 / Bolu Abant İzzet Baysal Üniversitesi</li>
+          <li>Linux Yaz Kampı 2014 / Bolu Abant İzzet Baysal Üniversitesi</li>
+          <li>Linux Yaz Kampı 2013 / Bolu Abant İzzet Baysal Üniversitesi</li>
+          <li>Linux Yaz Kampı 2012 / Bolu Abant İzzet Baysal Üniversitesi</li>
+          <li>Linux Yaz Kampı 2011 / Düzce Üniversitesi</li>
+          <li>Linux Yaz Kampı 2010 / Işık Üniversitesi Şile Yerleşkesi</li>
         </ul>
       </div>
     </div>
