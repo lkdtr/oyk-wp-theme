@@ -78,6 +78,8 @@ Template Name: Hakkında
 	  
 	  <li>Özgür Yazılım Yaz Kampı 2018 / Bolu Abant İzzet Baysal Üniversitesi</li>
     	  <li>Konferans Öncesi Kurslar 2018 / Karabük Üniversitesi</li>
+    	  
+	  <hr>
           
           <li>Linux Yaz Kampı 2017 / Bolu Abant İzzet Baysal Üniversitesi</li>
     	  <li>Konferans Öncesi Kurslar 2017 / Aksaray Üniversitesi</li>
