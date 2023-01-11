@@ -19,7 +19,7 @@
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
   <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Kış Kampı 2023 4-8 Şubat tarihleri arasında Eskişehir Osmangazi Üniversitesinde. Başvurular 10-15 Ocak tarihlerinde." />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
-  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo-kare.png?2023-kisV2" />
+  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo-kare.png?2023-kisV3" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
@@ -37,7 +37,7 @@
   <div class="container">
     <div class="row">
       <div class="header-logo col-md-6 col-xs-12">
-        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo.png" alt=""></a>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo.png?V3" alt=""></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
