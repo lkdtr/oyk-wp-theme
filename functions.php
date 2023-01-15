@@ -115,8 +115,8 @@ function the_breadcrumb() {
 
 function getCalendarRowClass($startDate, $endDate)
 {
-  $startTime = strtotime($startDate);
-  $endTime = strtotime($endDate);
+  $startTime = strtotime($startDate." 00:00:00");
+  $endTime = strtotime($endDate." 23:59:00");
   $now = time();
   if($now>=$startTime && $now<$endTime)
     return "current";
