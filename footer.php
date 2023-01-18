@@ -25,10 +25,7 @@
       </div>
       <div class="col-md-4">
         <div class="footer-widget">
-          <h2>Ana Sponsor</h2>
-          <!-- div class="col-xs-6 main-sponsor text-center" style="background: #fff;border:1px solid #fff;border-radius: 5px;padding:15px;margin-bottom: 15px;">
-            
-          </div -->
+          <p style="color: white;">Mustafa Akgül Özgür Yazılım Kampı bir <a style="color: white;" href="https://www.lkd.org.tr/" target="_blank">Linux Kullanıcıları Derneği</a> etkinliğidir. Derneğimizin diğer etkinlikleri hakkında bilgi almak için <a style="color: white;" href="https://www.lkd.org.tr/category/etkinlikler/" target="_blank">etkinlikler</a> sayfamızı ziyaret edebilirsiniz.</p>
         </div>
       </div>
     </div>
@@ -43,4 +40,5 @@
 <script src="<?php bloginfo("template_url"); ?>/assets/js/main.min.js?2023-kis"></script>
 <?php wp_footer(); ?>
 </body>
+
 </html>
