@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-4">
         <div class="footer-widget">
-          <p style="color: white;">Mustafa Akgül Özgür Yazılım Kampı bir <a style="color: white;" href="https://www.lkd.org.tr/" target="_blank">Linux Kullanıcıları Derneği</a> etkinliğidir. Derneğimizin diğer etkinlikleri hakkında bilgi almak için <a style="color: white;" href="https://www.lkd.org.tr/category/etkinlikler/" target="_blank">etkinlikler</a> sayfamızı ziyaret edebilirsiniz.</p>
+          <p style="color: white;">Mustafa Akgül Özgür Yazılım Kampı bir <a style="color: white; text-decoration: underline;" href="https://www.lkd.org.tr/" target="_blank">Linux Kullanıcıları Derneği</a> etkinliğidir. Derneğimizin diğer etkinlikleri hakkında bilgi almak için <a style="color: white; text-decoration: underline;" href="https://www.lkd.org.tr/category/etkinlikler/" target="_blank">etkinlikler</a> sayfamızı ziyaret edebilirsiniz.</p>
         </div>
       </div>
     </div>
