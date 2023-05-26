@@ -42,10 +42,10 @@
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
           <a href="http://www.lkd.org.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png" height="74" width="74" alt="">
+            <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png?v2" height="100" width="100" alt="">
           </a>
           <a href="http://www.ogu.edu.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/ogu.png"  height="74" width="74" alt="">
+            <img src="<?php bloginfo("template_url"); ?>/assets/images/ogu.png?v2"  height="100" width="100" alt="">
           </a>
         </div>
       </div>
