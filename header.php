@@ -15,9 +15,9 @@
     ?>
   </title>
   <meta charset="UTF-8">
-  <meta name="description" content="Mustafa Akgül Özgür Yazılım Kış Kampı 2023 4-8 Şubat tarihleri arasında Eskişehir Osmangazi Üniversitesinde. Başvurular 10-15 Ocak tarihlerinde.">
+  <meta name="description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2023 Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesi’nde">
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Kış Kampı 2023 4-8 Şubat tarihleri arasında Eskişehir Osmangazi Üniversitesinde. Başvurular 10-15 Ocak tarihlerinde." />
+  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2023 Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesi’nde" />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
   <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo-kare.png?2023-kisV3" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/jquery.fancybox.min.css" />
-  <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main.min.css?2023-kis">
+  <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main.min.css?2023-yaz">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css">
   <link rel="icon" type="image/png" href="<?php bloginfo("template_url"); ?>/assets/images/favicon.png" />
   <?php wp_head(); ?>
@@ -37,15 +37,15 @@
   <div class="container">
     <div class="row">
       <div class="header-logo col-md-6 col-xs-12">
-        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo.png?V3" height="125" widtg="407" alt=""></a>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2023yaz-logo.png?V3" height="125" widtg="407" alt=""></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
           <a href="http://www.lkd.org.tr/" target="_blank">
             <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png?v2" height="100" width="100" alt="">
           </a>
-          <a href="http://www.ogu.edu.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/ogu.png?v2"  height="100" width="100" alt="">
+          <a href="http://www.ibu.edu.tr/" target="_blank">
+            <img src="<?php bloginfo("template_url"); ?>/assets/images/ibu.png?v3"  height="100" width="100" alt="">
           </a>
         </div>
       </div>
