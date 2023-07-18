@@ -30,6 +30,10 @@ Template Name: Ana sayfa
               </thead>
               <tbody>
                 <tr class="<?=getCalendarRowClass("02-01-2023", "06-01-2023")?>">
+                  <td class="calendar-date-title">Eğitimen Başvuruları</td>
+                  <td>2 - 6 Ocak</td>
+                </tr>
+                <tr class="<?=getCalendarRowClass("02-01-2023", "06-01-2023")?>">
                   <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
                   <td>2 - 6 Ocak</td>
                 </tr>
