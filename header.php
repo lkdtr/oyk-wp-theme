@@ -19,7 +19,7 @@
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
   <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2023 Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesi’nde" />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
-  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2023kis-logo-kare.png?2023-kisV3" />
+  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2023yaz-logo-kare.png?2023-yazV1" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
