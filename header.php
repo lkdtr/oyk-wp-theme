@@ -16,11 +16,13 @@
   </title>
   <meta charset="UTF-8">
   <meta name="description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2023 Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesi’nde">
+  <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
   <meta property="twitter:description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2023 Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesi’nde" />
   <meta property="twitter:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2023yaz-logo-kare.png?2023-yazV1" />
   <meta property="twitter:url" content="<?=home_url( $wp->request )?>" />
   <meta property="twitter:domain" content="kamp.linux.org.tr">
+  <meta property="og:type" content="website">
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
   <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2023 Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesi’nde" />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
