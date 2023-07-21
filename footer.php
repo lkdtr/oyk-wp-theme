@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <div class="footer-widget twitter-widget">
+        <div class="footer-widget social-media">
           <h2>LKD Sosyal Medya Hesapları</h2>
           <ul>
             <li>
@@ -13,6 +13,9 @@
             </li>
             <li>
               <a href="https://www.instagram.com/lkdorgtr/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="http://www.linkedin.com/company/ozguryazilimkampi/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </li>
           </ul>
         </div>
@@ -29,6 +32,9 @@
             </li>
             <li>
               <a href="https://www.instagram.com/ozguryazilimkampi/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ozguryazilimkampi/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </li>
           </ul>
         </div>
