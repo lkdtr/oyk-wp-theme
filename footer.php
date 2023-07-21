@@ -15,7 +15,7 @@
               <a href="https://www.instagram.com/lkdorgtr/" target="_blank"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-              <a href="http://www.linkedin.com/company/ozguryazilimkampi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="http://www.linkedin.com/company/lkdtr/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </li>
           </ul>
         </div>
