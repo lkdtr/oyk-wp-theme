@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <div class="footer-widget twitter-widget">
+        <div class="footer-widget social-media">
           <h2>LKD Sosyal Medya Hesapları</h2>
           <ul>
             <li>
