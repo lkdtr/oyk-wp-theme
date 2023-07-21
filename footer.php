@@ -3,13 +3,23 @@
     <div class="row">
       <div class="col-md-4">
         <div class="footer-widget twitter-widget">
-          <h2>Son Tweetler</h2>
-          <?php echo do_shortcode("[custom-twitter-feeds feed=1]"); ?>
+          <h2>LKD Sosyal Medya Hesapları</h2>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/lkdtr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/lkdtr" target="_blank"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/lkdorgtr/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="col-md-4">
         <div class="footer-widget social-media">
-          <h2>Sosyal Medya Hesapları</h2>
+          <h2>Kamp Sosyal Medya Hesapları</h2>
           <ul>
             <li>
               <a href="https://www.facebook.com/ozguryazilimkampi" target="_blank"><i class="fab fa-facebook-f"></i></a>
