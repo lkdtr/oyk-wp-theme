@@ -29,17 +29,17 @@ Template Name: Ana sayfa
                 </tr>
               </thead>
               <tbody>
-                <tr class="<?=getCalendarRowClass("20-07-2023", "27-07-2023")?>">
+                <tr class="<?=getCalendarRowClass("20-07-2023", "28-07-2023")?>">
                   <td class="calendar-date-title">Eğitmen Başvuruları</td>
-                  <td>20 - 27 Temmuz</td>
+                  <td>20 - 28 Temmuz</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("28-07-2023", "29-07-2023")?>">
+                <tr class="<?=getCalendarRowClass("29-07-2023", "30-07-2023")?>">
                   <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
-                  <td>28 - 29 Temmuz</td>
+                  <td>29 - 30 Temmuz</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("30-07-2023", "13-08-2023")?>">
+                <tr class="<?=getCalendarRowClass("31-07-2023", "13-08-2023")?>">
                   <td class="calendar-date-title">Katılımcı Başvuruları</td>
-                  <td>30 Temmuz - 13 Ağustos</td>
+                  <td>31 Temmuz - 13 Ağustos</td>
                 </tr>
                 <tr class="<?=getCalendarRowClass("14-08-2023", "16-08-2023")?>">
                   <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
