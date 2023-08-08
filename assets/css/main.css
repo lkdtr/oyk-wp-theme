@@ -942,3 +942,6 @@ a img.aligncenter{
     font-weight:700;
     border-bottom:2px solid
 }
+.border-bottom-none {
+    border-bottom: none !important;
+}
