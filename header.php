@@ -19,14 +19,14 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
   <meta property="twitter:description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2023 Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesi’nde" />
-  <meta property="twitter:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2023yaz-logo-kare.png?2023-yazV2" />
+  <meta property="twitter:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2024kis-logo-kare.png?2024-kis" />
   <meta property="twitter:url" content="<?=home_url( $wp->request )?>" />
   <meta property="twitter:domain" content="kamp.linux.org.tr">
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım Yaz Kampı 2023 Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesi’nde" />
+  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım 2024 Kış Kampı Yakında" />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
-  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2023yaz-logo-kare.png?2023-yazV2" />
+  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2024kis-logo-kare.png?2024-kis" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
@@ -44,16 +44,16 @@
   <div class="container">
     <div class="row">
       <div class="header-logo col-md-6 col-xs-12">
-        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2023yaz-logo.png?V7" height="125" widtg="429" alt=""></a>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2024kis-logo.png?V7" height="125" widtg="429" alt=""></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
           <a href="http://www.lkd.org.tr/" target="_blank">
             <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png?v2" height="100" width="100" alt="">
           </a>
-          <a href="http://www.ibu.edu.tr/" target="_blank">
+          <!--a href="http://www.ibu.edu.tr/" target="_blank">
             <img src="<?php bloginfo("template_url"); ?>/assets/images/ibu.png?v3"  height="100" width="100" alt="">
-          </a>
+          </a -->
         </div>
       </div>
     </div>
