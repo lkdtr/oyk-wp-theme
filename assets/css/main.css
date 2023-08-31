@@ -208,7 +208,7 @@ header .header-logo-list a img{
     }
 }
 nav.header-menu{
-    background:#379DA6;
+    background:#3693e6;
     height:60px
 }
 nav.header-menu ul li{
@@ -232,7 +232,7 @@ nav.header-menu ul li:hover ul.sub-menu{
     z-index:99999
 }
 nav.header-menu ul li:hover ul.sub-menu li a:hover{
-    color:#379DA6!important
+    color:#3693e6!important
 }
 nav.header-menu ul li ul.sub-menu{
     background:#1A546F;
@@ -298,7 +298,7 @@ nav.header-menu .btn-proposal:hover{
     cursor:pointer;
     margin:5px 5px 6px;
     text-shadow:0 1px 1px rgba(255,255,255,.75);
-    background:#379DA6
+    background:#3693e6
 }
 .slicknav_menu .slicknav_menutxt{
     display:block;
@@ -383,14 +383,14 @@ nav.header-menu .btn-proposal:hover{
 }
 @media only screen and (min-width:320px) and (max-width:480px){
     .slicknav_nav li.btn-proposal{
-        background:#379DA6;
+        background:#3693e6;
         float:left!important;
         display:block;
         width:100%
     }
 }
 .slicknav_nav .slicknav_row:hover,.slicknav_nav a:hover{
-    background:#379DA6;
+    background:#3693e6;
     color:#fff
 }
 .slicknav_nav .slicknav_txtnode{
@@ -413,7 +413,7 @@ nav.header-menu .btn-proposal:hover{
     margin-bottom:20px
 }
 #crumbs a{
-    color:#379DA6;
+    color:#3693e6;
     font-weight:400;
     border-bottom:0
 }
@@ -456,7 +456,7 @@ footer .twitter-widget{
     color:#fff
 }
 footer .twitter-widget .ctf-tweet-text a{
-    color:#379DA6
+    color:#3693e6
 }
 footer .twitter-widget #ctf .ctf-item{
     border-top:0;
@@ -473,7 +473,7 @@ footer .social-media ul{
 }
 footer .social-media ul li{
     display:inline-block;
-    background:#379DA6;
+    background:#3693e6;
     border-radius:3px;
     width:40px;
     height:40px;
@@ -532,7 +532,7 @@ footer .footer-widget-supporter .supporter-list-item img{
     background-size:cover;
     background-repeat:no-repeat;
     padding:100px 0;
-    background-image:url(../images/background-yaz.png?2023-yaz);
+    background-image:url(../images/background-kis.png?2024-kis);
     margin-bottom:0
 }
 @media only screen and (min-width:320px) and (max-width:480px){
@@ -593,7 +593,7 @@ footer .footer-widget-supporter .supporter-list-item img{
     opacity:.5
 }
 .jumbotron .calendar table tbody tr.current{
-    background:#379DA6;
+    background:#3693e6;
  }
 .jumbotron .calendar table tbody tr.current td{
     color:#fff;
@@ -693,7 +693,7 @@ footer .footer-widget-supporter .supporter-list-item img{
 }
 .about-text h2{
     font-size:22px;
-    color:#379DA6
+    color:#3693e6
 }
 .about-text p{
     font-size:16px;
@@ -845,7 +845,7 @@ footer .footer-widget-supporter .supporter-list-item img{
 }
 .page-sidebar .widget_nav_menu ul li a:hover{
     color:#fff;
-    background:#379DA6
+    background:#3693e6
 }
 .alignnone{
     margin:5px 20px 20px 0
