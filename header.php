@@ -44,7 +44,7 @@
   <div class="container">
     <div class="row">
       <div class="header-logo col-md-6 col-xs-12">
-        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2024kis-logo.png?V7" height="125" widtg="429" alt=""></a>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2024kis-logo.png?V8" width="429" alt=""></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
