@@ -29,27 +29,27 @@ Template Name: Ana sayfa
                 </tr>
               </thead>
               <tbody>
-                <tr class="<?=getCalendarRowClass("20-07-2023", "28-07-2023")?>">
+                <tr class="<?=getCalendarRowClass("20-07-2024", "28-07-2024")?>">
                   <td class="calendar-date-title">Eğitmen Başvuruları</td>
                   <td>20 - 28 Temmuz</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("29-07-2023", "30-07-2023")?>">
+                <tr class="<?=getCalendarRowClass("29-07-2024", "30-07-2024")?>">
                   <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
                   <td>29 - 30 Temmuz</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("31-07-2023", "13-08-2023")?>">
+                <tr class="<?=getCalendarRowClass("31-07-2024", "13-08-2024")?>">
                   <td class="calendar-date-title">Katılımcı Başvuruları</td>
                   <td>31 Temmuz - 13 Ağustos</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("14-08-2023", "16-08-2023")?>">
+                <tr class="<?=getCalendarRowClass("14-08-2024", "16-08-2024")?>">
                   <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
                   <td>14 - 16 Ağustos</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("17-08-2023", "20-08-2023")?>">
+                <tr class="<?=getCalendarRowClass("17-08-2024", "20-08-2024")?>">
                   <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
                   <td>17 - 20 Ağustos</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("25-08-2023", "03-09-2023")?>">
+                <tr class="<?=getCalendarRowClass("25-08-2024", "03-09-2024")?>">
                   <td class="calendar-date-title">KAMP</td>
                   <td>25 Ağustos - 3 Eylül</td>
                 </tr>
