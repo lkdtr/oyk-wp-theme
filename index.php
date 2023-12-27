@@ -52,7 +52,7 @@ Template Name: Ana sayfa
                 </tr>
                 <tr class="<?=getCalendarRowClass("30-01-2024", "02-02-2024")?>">
                   <td class="calendar-date-title">KAMP</td>
-                  <td>30 Ocak - 2 Şubat</td>
+                  <td>30 Ocak - 2 Şubat 2024</td>
                 </tr>
               </tbody>
             </table>
