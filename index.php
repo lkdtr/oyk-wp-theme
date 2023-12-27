@@ -34,13 +34,13 @@ Template Name: Ana sayfa
                   <td class="calendar-date-title">Eğitmen Başvuruları</td>
                   <td>19 - 28 Aralık 2023</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("28-12-2023", "30-12-2023")?>">
+                <tr class="<?=getCalendarRowClass("29-12-2023", "02-01-2024")?>">
                   <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
-                  <td>28 - 30 Aralık 2023</td>
+                  <td>29 Aralık 2023 - 2 Ocak 2024</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("01-01-2024", "12-01-2024")?>">
+                <tr class="<?=getCalendarRowClass("03-01-2024", "12-01-2024")?>">
                   <td class="calendar-date-title">Katılımcı Başvuruları</td>
-                  <td>1 - 12 Ocak 2024</td>
+                  <td>3 - 12 Ocak 2024</td>
                 </tr>
                 <tr class="<?=getCalendarRowClass("13-01-2024", "15-01-2024")?>">
                   <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
