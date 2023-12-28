@@ -30,7 +30,7 @@ Template Name: Ana sayfa
               </thead>
               <tbody>
 
-                <tr class="<?=getCalendarRowClass("19-12-2023", "27-12-2023")?>">
+                <tr class="<?=getCalendarRowClass("19-12-2023", "28-12-2023")?>">
                   <td class="calendar-date-title">Eğitmen Başvuruları</td>
                   <td>19 - 28 Aralık 2023</td>
                 </tr>
