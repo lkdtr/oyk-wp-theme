@@ -52,7 +52,7 @@
             <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png?v2" height="100" width="100" alt="">
           </a>
           <a href="http://www.anadolu.edu.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/anadolu.png?v2"  height="100" width="100" alt="">
+            <img src="<?php bloginfo("template_url"); ?>/assets/images/anadolu.png?v3"  height="100" width="100" alt="">
           </a>
         </div>
       </div>
