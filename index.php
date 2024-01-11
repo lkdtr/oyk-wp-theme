@@ -42,13 +42,13 @@ Template Name: Ana sayfa
                   <td class="calendar-date-title">Katılımcı Başvuruları</td>
                   <td>3 - 12 Ocak 2024</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("13-01-2024", "15-01-2024")?>">
+                <tr class="<?=getCalendarRowClass("14-01-2024", "15-01-2024")?>">
                   <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
-                  <td>13 - 15 Ocak 2024</td>
+                  <td>14 - 15 Ocak 2024</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("16-01-2024", "19-01-2024")?>">
+                <tr class="<?=getCalendarRowClass("16-01-2024", "18-01-2024")?>">
                   <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
-                  <td>16 - 19 Ocak 2024</td>
+                  <td>16 - 18 Ocak 2024</td>
                 </tr>
                 <tr class="<?=getCalendarRowClass("30-01-2024", "02-02-2024")?>">
                   <td class="calendar-date-title">KAMP</td>
