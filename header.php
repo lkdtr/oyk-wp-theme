@@ -15,16 +15,16 @@
     ?>
   </title>
   <meta charset="UTF-8">
-  <meta name="description" content="Mustafa Akgül Özgür Yazılım 2024 Yaz Kampı Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesindee">
+  <meta name="description" content="Mustafa Akgül Özgür Yazılım 2024 Yaz Kampı, Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesinde">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="twitter:description" content="Mustafa Akgül Özgür Yazılım 2024 Yaz Kampı Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesinde" />
+  <meta property="twitter:description" content="Mustafa Akgül Özgür Yazılım 2024 Yaz Kampı, Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesinde" />
   <meta property="twitter:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2024yaz-logo-kare.png?2024-yaz" />
   <meta property="twitter:url" content="<?=home_url( $wp->request )?>" />
   <meta property="twitter:domain" content="kamp.linux.org.tr">
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım 2024 Yaz Kampı Yakında" />
+  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım 2024 Yaz Kampı, Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesinde" />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
   <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2024yaz-logo-kare.png?2024-yaz" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
@@ -44,7 +44,7 @@
   <div class="container">
     <div class="row">
       <div class="header-logo col-md-6 col-xs-12">
-        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2024yaz-logo.png?V8" width="429" alt=""></a>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2024yaz-logo.png?2024-yaz" width="429" alt=""></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
