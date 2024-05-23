@@ -29,30 +29,29 @@ Template Name: Ana sayfa
                 </tr>
               </thead>
               <tbody>
-
-                <tr class="<?=getCalendarRowClass("19-12-2023", "28-12-2023")?>">
+                <tr class="<?=getCalendarRowClass("11-07-2024", "19-07-2024")?>">
                   <td class="calendar-date-title">Eğitmen Başvuruları</td>
-                  <td>19 - 28 Aralık 2023</td>
+                  <td>11-19 Temmuz 2024</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("29-12-2023", "02-01-2024")?>">
+                <tr class="<?=getCalendarRowClass("20-07-2024", "21-07-2024")?>">
                   <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
-                  <td>29 Aralık 2023 - 2 Ocak 2024</td>
+                  <td>20-21 Temmuz 2024</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("03-01-2024", "12-01-2024")?>">
+                <tr class="<?=getCalendarRowClass("22-07-2024", "04-08-2024")?>">
                   <td class="calendar-date-title">Katılımcı Başvuruları</td>
-                  <td>3 - 12 Ocak 2024</td>
+                  <td>22 Temmuz - 4 Ağustos 2024</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("14-01-2024", "15-01-2024")?>">
+                <tr class="<?=getCalendarRowClass("05-08-2024", "07-08-2024")?>">
                   <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
-                  <td>14 - 15 Ocak 2024</td>
+                  <td>5-7 Ağustos 2024</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("16-01-2024", "18-01-2024")?>">
+                <tr class="<?=getCalendarRowClass("08-08-2024", "11-08-2024")?>">
                   <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
-                  <td>16 - 18 Ocak 2024</td>
+                  <td>8-11 Ağustos 2024</td>
                 </tr>
                 <tr class="<?=getCalendarRowClass("30-01-2024", "02-02-2024")?>">
                   <td class="calendar-date-title">KAMP</td>
-                  <td>30 Ocak - 2 Şubat 2024</td>
+                  <td>XX - XX Ağustos 2024</td>
                 </tr>
               </tbody>
             </table>
