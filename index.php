@@ -49,9 +49,9 @@ Template Name: Ana sayfa
                   <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
                   <td>8-11 Ağustos 2024</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("30-01-2024", "02-02-2024")?>">
+                <tr class="<?=getCalendarRowClass("24-08-2024", "31-08-2024")?>">
                   <td class="calendar-date-title">KAMP</td>
-                  <td>XX - XX Ağustos 2024</td>
+                  <td>24-31 Ağustos 2024</td>
                 </tr>
               </tbody>
             </table>
