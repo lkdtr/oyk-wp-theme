@@ -52,8 +52,8 @@
           <a href="http://www.lkd.org.tr/" target="_blank">
             <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png?v2" height="100" width="100" alt="">
           </a>
-          <a href="http://www.anadolu.edu.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/anadolu.png?v3"  height="100" width="100" alt="">
+          <a href="http://www.ibu.edu.tr/" target="_blank">
+            <img src="<?php bloginfo("template_url"); ?>/assets/images/ibu.png?v3"  height="100" width="100" alt="">
           </a>
         </div>
       </div>
