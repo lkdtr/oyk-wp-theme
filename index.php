@@ -38,9 +38,9 @@ Template Name: Ana sayfa
                   <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
                   <td>01 - 10 Temmuz 2025</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("16-07-2025", "27-07-2025")?>">
+                <tr class="<?=getCalendarRowClass("17-07-2025", "27-07-2025")?>">
                   <td class="calendar-date-title">Katılımcı Başvuruları</td>
-                  <td>16 - 27 Temmuz 2025</td>
+                  <td>17 - 27 Temmuz 2025</td>
                 </tr>
                 <tr class="<?=getCalendarRowClass("28-07-2025", "01-08-2025")?>">
                   <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
