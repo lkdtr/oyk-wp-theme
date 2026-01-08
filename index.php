@@ -28,33 +28,31 @@ Template Name: Ana sayfa
                   <th colspan="2" class="text-center">Takvim</th>
                 </tr>
               </thead>
-
               <tbody>
-                <tr class="<?=getCalendarRowClass("01-06-2025", "30-06-2025")?>">
+                <tr class="<?=getCalendarRowClass("09-01-2026", "14-01-2026")?>">
                   <td class="calendar-date-title">Eğitim Düzenleme Başvurusu</td>
-                  <td>01 - 30 Haziran 2025</td>
+                  <td>09 - 14 Ocak 2026</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("01-07-2025", "10-07-2025")?>">
+                <tr class="<?=getCalendarRowClass("15-01-2026", "17-01-2026")?>">
                   <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
-                  <td>01 - 10 Temmuz 2025</td>
+                  <td>15 - 17 Ocak 2026</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("17-07-2025", "27-07-2025")?>">
+                <tr class="<?=getCalendarRowClass("19-01-2026", "26-01-2026")?>">
                   <td class="calendar-date-title">Katılımcı Başvuruları</td>
-                  <td>17 - 27 Temmuz 2025</td>
+                  <td>19 - 26 Ocak 2026</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("28-07-2025", "01-08-2025")?>">
+                <tr class="<?=getCalendarRowClass("27-01-2026", "28-01-2026")?>">
                   <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
-                  <td>28 Temmuz - 01 Ağustos 2025</td>
+                  <td>27 - 28 Ocak 2026</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("02-08-2025", "06-08-2025")?>">
+                <tr class="<?=getCalendarRowClass("29-01-2026", "31-01-2026")?>">
                   <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
-                  <td>02 - 06 Ağustos 2025</td>
+                  <td>29 - 31 Ocak 2026</td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("23-08-2025", "31-08-2025")?>">
+                <tr class="<?=getCalendarRowClass("04-02-2026", "08-02-2026")?>">
                   <td class="calendar-date-title">KAMP</td>
-                  <td>23 - 31 Ağustos 2025</td>
+                  <td>04 - 08 Şubat 2026</td>
                 </tr>
-
               </tbody>
             </table>
           </div>
