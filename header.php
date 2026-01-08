@@ -16,24 +16,24 @@
   </title>
   <meta charset="UTF-8">
    
-  <meta name="description" content="Mustafa Akgül Özgür Yazılım 2025 Yaz Kampı, Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesinde">
+  <meta name="description" content="Mustafa Akgül Özgür Yazılım 2026 Kış Kampı, Afyon Kocatepe Üniversitesi Ahmet Necdet Sezer Kampüsü’nde">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="twitter:description" content="Mustafa Akgül Özgür Yazılım 2025 Yaz Kampı, Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesinde" />
-  <meta property="twitter:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2025yaz-logo-kare.png?2025-yaz" />
+  <meta property="twitter:description" content="Mustafa Akgül Özgür Yazılım 2026 Kış Kampı, Afyon Kocatepe Üniversitesi Ahmet Necdet Sezer Kampüsü’nde" />
+  <meta property="twitter:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2026kis-logo-kare.png?2026-kis" />
   <meta property="twitter:url" content="<?=home_url( $wp->request )?>" />
   <meta property="twitter:domain" content="kamp.linux.org.tr">
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım 2025 Yaz Kampı, Bolu Abant İzzet Baysal Üniversitesi Gölköy Yerleşkesinde" />
+  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım 2026 Kış Kampı, Afyon Kocatepe Üniversitesi Ahmet Necdet Sezer Kampüsü’nde" />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
-  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2025yaz-logo-kare.png?2025-yaz" />
+  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2026kis-logo-kare.png?2026-kis" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/jquery.fancybox.min.css" />
-  <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main-yaz.css?2025-yaz-v1">
+  <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main-kis.css?2026-kis-v1">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css">
   <link rel="icon" type="image/png" href="<?php bloginfo("template_url"); ?>/assets/images/favicon.png" />
   <?php wp_head(); ?>
@@ -45,7 +45,7 @@
   <div class="container">
     <div class="row">
       <div class="header-logo col-md-6 col-xs-12">
-        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2025yaz-logo.png?2025-yaz" width="429" alt=""></a>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2026kis-logo.png?2026-kis" width="429" alt=""></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
@@ -53,7 +53,7 @@
             <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png?v2" height="100" width="100" alt="">
           </a>
           <a href="http://www.ibu.edu.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/ibu.png?v3"  height="100" width="100" alt="">
+            <img src="<?php bloginfo("template_url"); ?>/assets/images/aku.png?v3"  height="100" width="100" alt="">
           </a>
         </div>
       </div>
