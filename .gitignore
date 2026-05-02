@@ -94,7 +94,8 @@ build/Release
 node_modules
 jspm_packages
 
-# npm lock file (build pipeline not in use, compiled assets are in repo)
+# npm files (build pipeline not in use, compiled assets are in repo)
+package.json
 package-lock.json
 
 # Optional npm cache directory
