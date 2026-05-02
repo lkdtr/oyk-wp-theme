@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/jquery.fancybox.min.css" />
-  <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main-kis.css?2026-kis-v1">
+  <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main-yaz.css?2026-yaz-v1">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css">
   <link rel="icon" type="image/png" href="<?php bloginfo("template_url"); ?>/assets/images/favicon.png" />
   <?php wp_head(); ?>
