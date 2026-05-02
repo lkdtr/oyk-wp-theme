@@ -33,7 +33,8 @@
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/jquery.fancybox.min.css" />
-  <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main-yaz.css?2026-yaz-v1">
+  <?php $oyk_stili = get_option( 'oyk_tema_stili', 'kis' ); ?>
+  <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/main-<?= esc_attr( $oyk_stili ) ?>.css?<?= esc_attr( $oyk_stili ) ?>-v1">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css">
   <link rel="icon" type="image/png" href="<?php bloginfo("template_url"); ?>/assets/images/favicon.png" />
   <?php wp_head(); ?>
@@ -45,7 +46,13 @@
   <div class="container">
     <div class="row">
       <div class="header-logo col-md-6 col-xs-12">
-        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/images/oyk2026kis-logo.png?2026-kis" width="429" alt=""></a>
+        <?php
+          $oyk_logo = get_option( 'oyk_logo_url', '' );
+          $oyk_logo_src = $oyk_logo
+            ? esc_url( $oyk_logo )
+            : get_template_directory_uri() . '/assets/images/oyk2026kis-logo.png';
+        ?>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?= $oyk_logo_src ?>" alt="<?php bloginfo('name'); ?>"></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">

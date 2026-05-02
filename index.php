@@ -29,30 +29,12 @@ Template Name: Ana sayfa
                 </tr>
               </thead>
               <tbody>
-                <tr class="<?=getCalendarRowClass("09-01-2026", "14-01-2026")?>">
-                  <td class="calendar-date-title">Eğitim Düzenleme Başvurusu</td>
-                  <td>09 - 14 Ocak 2026</td>
+                <?php foreach ( get_option( 'oyk_takvim', array() ) as $row ) : ?>
+                <tr class="<?= esc_attr( getCalendarRowClass( $row['baslangic'], $row['bitis'] ) ) ?>">
+                  <td class="calendar-date-title"><?= esc_html( $row['baslik'] ) ?></td>
+                  <td><?= esc_html( oyk_format_date_range_tr( $row['baslangic'], $row['bitis'] ) ) ?></td>
                 </tr>
-                <tr class="<?=getCalendarRowClass("15-01-2026", "17-01-2026")?>">
-                  <td class="calendar-date-title">Eğitimlerin Belirlenmesi</td>
-                  <td>15 - 17 Ocak 2026</td>
-                </tr>
-                <tr class="<?=getCalendarRowClass("19-01-2026", "26-01-2026")?>">
-                  <td class="calendar-date-title">Katılımcı Başvuruları</td>
-                  <td>19 - 26 Ocak 2026</td>
-                </tr>
-                <tr class="<?=getCalendarRowClass("27-01-2026", "28-01-2026")?>">
-                  <td class="calendar-date-title">1. Tur Yerleştirmeler</td>
-                  <td>27 - 28 Ocak 2026</td>
-                </tr>
-                <tr class="<?=getCalendarRowClass("29-01-2026", "31-01-2026")?>">
-                  <td class="calendar-date-title">2. Tur Yerleştirmeler</td>
-                  <td>29 - 31 Ocak 2026</td>
-                </tr>
-                <tr class="<?=getCalendarRowClass("04-02-2026", "08-02-2026")?>">
-                  <td class="calendar-date-title">KAMP</td>
-                  <td>04 - 08 Şubat 2026</td>
-                </tr>
+                <?php endforeach; ?>
               </tbody>
             </table>
           </div>

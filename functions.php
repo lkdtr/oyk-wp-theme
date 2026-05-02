@@ -1,4 +1,6 @@
 <?php
+require_once get_template_directory() . '/inc/takvim-admin.php';
+
 add_theme_support('menus');
 register_nav_menus(array(
   'menu' => 'Header Menü',
@@ -115,14 +117,39 @@ function the_breadcrumb() {
 
 function getCalendarRowClass($startDate, $endDate)
 {
-  $startTime = strtotime($startDate." 00:00:00");
-  $endTime = strtotime($endDate." 23:59:00");
-  $now = time();
-  if($now>=$startTime && $now<$endTime)
-    return "current";
-  if($now>$endTime)
-    return "passed";
-  return "";
+  $startTime = strtotime($startDate);
+  $endTime   = strtotime($endDate . ' 23:59:59');
+  $now       = time();
+  if ( $now >= $startTime && $now <= $endTime ) return 'current';
+  if ( $now > $endTime ) return 'passed';
+  return '';
+}
+
+function oyk_format_date_tr($ymd) {
+  static $months = array(
+    1=>'Ocak', 2=>'Şubat', 3=>'Mart', 4=>'Nisan', 5=>'Mayıs', 6=>'Haziran',
+    7=>'Temmuz', 8=>'Ağustos', 9=>'Eylül', 10=>'Ekim', 11=>'Kasım', 12=>'Aralık',
+  );
+  $ts = strtotime($ymd);
+  return date('d', $ts) . ' ' . $months[(int)date('n', $ts)] . ' ' . date('Y', $ts);
+}
+
+function oyk_format_date_range_tr($start, $end) {
+  static $months = array(
+    1=>'Ocak', 2=>'Şubat', 3=>'Mart', 4=>'Nisan', 5=>'Mayıs', 6=>'Haziran',
+    7=>'Temmuz', 8=>'Ağustos', 9=>'Eylül', 10=>'Ekim', 11=>'Kasım', 12=>'Aralık',
+  );
+  $ts1 = strtotime($start);
+  $ts2 = strtotime($end);
+  $d1  = date('d', $ts1);
+  $d2  = date('d', $ts2);
+  $m1  = (int)date('n', $ts1);
+  $m2  = (int)date('n', $ts2);
+  $y2  = date('Y', $ts2);
+  if ( $m1 === $m2 ) {
+    return $d1 . ' - ' . $d2 . ' ' . $months[$m2] . ' ' . $y2;
+  }
+  return $d1 . ' ' . $months[$m1] . ' - ' . $d2 . ' ' . $months[$m2] . ' ' . $y2;
 }
 
 function registerButton($attrs)
