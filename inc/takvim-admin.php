@@ -21,6 +21,9 @@ function oyk_takvim_default_data() {
   if ( get_option( 'oyk_amblem_url' ) === false ) {
     add_option( 'oyk_amblem_url', '' );
   }
+  if ( get_option( 'oyk_site_baslik' ) === false ) {
+    add_option( 'oyk_site_baslik', '' );
+  }
   if ( get_option( 'oyk_site_aciklama' ) === false ) {
     add_option( 'oyk_site_aciklama', '' );
   }
@@ -76,6 +79,7 @@ function oyk_takvim_admin_page() {
   $tema_stili      = get_option( 'oyk_tema_stili', 'kis' );
   $logo_url        = get_option( 'oyk_logo_url', '' );
   $amblem_url      = get_option( 'oyk_amblem_url', '' );
+  $site_baslik     = get_option( 'oyk_site_baslik', '' );
   $site_aciklama   = get_option( 'oyk_site_aciklama', '' );
   $partner_logolar = get_option( 'oyk_partner_logolar', array() );
   $notice          = '';
@@ -96,15 +100,22 @@ function oyk_takvim_admin_page() {
       <h2 class="title">SEO / Sosyal Medya</h2>
       <table class="form-table" role="presentation">
         <tr>
-          <th scope="row"><label for="oyk-site-aciklama">Site Açıklaması</label></th>
+          <th scope="row"><label for="oyk-site-baslik">Başlık</label></th>
+          <td>
+            <input type="text" name="site_baslik" id="oyk-site-baslik"
+                   class="large-text"
+                   value="<?= esc_attr( $site_baslik ) ?>"
+                   placeholder="<?= esc_attr( get_bloginfo('name') ) ?>">
+            <p class="description">Boş bırakılırsa WordPress site adı kullanılır. <code>og:title</code> ve <code>twitter:title</code> etiketlerinde geçer.</p>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><label for="oyk-site-aciklama">Açıklama</label></th>
           <td>
             <textarea name="site_aciklama" id="oyk-site-aciklama"
                       class="large-text" rows="3"
                       placeholder="Kamp adı, lokasyon vb."><?= esc_textarea( $site_aciklama ) ?></textarea>
-            <p class="description">
-              <code>meta description</code>, <code>og:description</code> ve <code>twitter:description</code> etiketlerinde kullanılır.<br>
-              Diğer alanlar otomatik dolar: başlık → WordPress site adı, URL → site adresi, görsel → amblem alanı.
-            </p>
+            <p class="description"><code>meta description</code>, <code>og:description</code> ve <code>twitter:description</code> etiketlerinde kullanılır.</p>
           </td>
         </tr>
       </table>
@@ -471,8 +482,10 @@ function oyk_tema_save() {
   $amblem_url = isset( $_POST['amblem_url'] ) ? esc_url_raw( $_POST['amblem_url'] ) : '';
   update_option( 'oyk_amblem_url', $amblem_url );
 
-  // Site açıklaması
+  // Site başlığı ve açıklaması
+  $site_baslik   = isset( $_POST['site_baslik'] )   ? sanitize_text_field( $_POST['site_baslik'] )       : '';
   $site_aciklama = isset( $_POST['site_aciklama'] ) ? sanitize_textarea_field( $_POST['site_aciklama'] ) : '';
+  update_option( 'oyk_site_baslik',   $site_baslik );
   update_option( 'oyk_site_aciklama', $site_aciklama );
 
   // Partner logoları
