@@ -52,7 +52,7 @@
             ? esc_url( $oyk_logo )
             : get_template_directory_uri() . '/assets/images/oyk2026kis-logo.png';
         ?>
-        <a href="<?php bloginfo('url'); ?>"><img src="<?= $oyk_logo_src ?>" alt="<?php bloginfo('name'); ?>"></a>
+        <a href="<?php bloginfo('url'); ?>"><img src="<?= $oyk_logo_src ?>" width="429" height="auto" alt="<?php bloginfo('name'); ?>"></a>
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
