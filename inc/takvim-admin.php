@@ -21,6 +21,9 @@ function oyk_takvim_default_data() {
   if ( get_option( 'oyk_amblem_url' ) === false ) {
     add_option( 'oyk_amblem_url', '' );
   }
+  if ( get_option( 'oyk_site_aciklama' ) === false ) {
+    add_option( 'oyk_site_aciklama', '' );
+  }
   if ( get_option( 'oyk_partner_logolar' ) === false ) {
     add_option( 'oyk_partner_logolar', array(
       array(
@@ -73,6 +76,7 @@ function oyk_takvim_admin_page() {
   $tema_stili      = get_option( 'oyk_tema_stili', 'kis' );
   $logo_url        = get_option( 'oyk_logo_url', '' );
   $amblem_url      = get_option( 'oyk_amblem_url', '' );
+  $site_aciklama   = get_option( 'oyk_site_aciklama', '' );
   $partner_logolar = get_option( 'oyk_partner_logolar', array() );
   $notice          = '';
 
@@ -87,6 +91,23 @@ function oyk_takvim_admin_page() {
     <form method="post" action="<?= esc_url( admin_url( 'admin-post.php' ) ) ?>">
       <?php wp_nonce_field( 'oyk_tema_save', 'oyk_tema_nonce' ); ?>
       <input type="hidden" name="action" value="oyk_tema_save">
+
+      <!-- ── SEO / Sosyal Medya ──────────────────────────────────── -->
+      <h2 class="title">SEO / Sosyal Medya</h2>
+      <table class="form-table" role="presentation">
+        <tr>
+          <th scope="row"><label for="oyk-site-aciklama">Site Açıklaması</label></th>
+          <td>
+            <textarea name="site_aciklama" id="oyk-site-aciklama"
+                      class="large-text" rows="3"
+                      placeholder="Kamp adı, lokasyon vb."><?= esc_textarea( $site_aciklama ) ?></textarea>
+            <p class="description">
+              <code>meta description</code>, <code>og:description</code> ve <code>twitter:description</code> etiketlerinde kullanılır.<br>
+              Diğer alanlar otomatik dolar: başlık → WordPress site adı, URL → site adresi, görsel → amblem alanı.
+            </p>
+          </td>
+        </tr>
+      </table>
 
       <!-- ── Renk Teması ─────────────────────────────────────────── -->
       <h2 class="title">Renk Teması</h2>
@@ -449,6 +470,10 @@ function oyk_tema_save() {
   // Amblem
   $amblem_url = isset( $_POST['amblem_url'] ) ? esc_url_raw( $_POST['amblem_url'] ) : '';
   update_option( 'oyk_amblem_url', $amblem_url );
+
+  // Site açıklaması
+  $site_aciklama = isset( $_POST['site_aciklama'] ) ? sanitize_textarea_field( $_POST['site_aciklama'] ) : '';
+  update_option( 'oyk_site_aciklama', $site_aciklama );
 
   // Partner logoları
   $raw_partner = isset( $_POST['partner'] ) ? (array) $_POST['partner'] : array();

@@ -16,19 +16,25 @@
   </title>
   <meta charset="UTF-8">
    
-  <meta name="description" content="Mustafa Akgül Özgür Yazılım 2026 Kış Kampı, Afyon Kocatepe Üniversitesi Ahmet Necdet Sezer Kampüsü’nde">
+  <?php
+    $oyk_aciklama = esc_attr( get_option( ‘oyk_site_aciklama’, ‘’ ) );
+    $oyk_amblem   = esc_url( get_option( ‘oyk_amblem_url’, get_template_directory_uri() . ‘/assets/images/oyk2026kis-logo-kare.png’ ) );
+    $oyk_baslik   = esc_attr( get_bloginfo( ‘name’ ) );
+    $oyk_url      = esc_url( home_url( $wp->request ) );
+    $oyk_domain   = parse_url( home_url(), PHP_URL_HOST );
+  ?>
+  <meta name="description" content="<?= $oyk_aciklama ?>">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="twitter:description" content="Mustafa Akgül Özgür Yazılım 2026 Kış Kampı, Afyon Kocatepe Üniversitesi Ahmet Necdet Sezer Kampüsü’nde" />
-  <?php $oyk_amblem = get_option( 'oyk_amblem_url', get_template_directory_uri() . '/assets/images/oyk2026kis-logo-kare.png' ); ?>
-  <meta property="twitter:image" content="<?= esc_url( $oyk_amblem ) ?>" />
-  <meta property="twitter:url" content="<?=home_url( $wp->request )?>" />
-  <meta property="twitter:domain" content="kamp.linux.org.tr">
+  <meta property="twitter:title" content="<?= $oyk_baslik ?>" />
+  <meta property="twitter:description" content="<?= $oyk_aciklama ?>" />
+  <meta property="twitter:image" content="<?= $oyk_amblem ?>" />
+  <meta property="twitter:url" content="<?= $oyk_url ?>" />
+  <meta property="twitter:domain" content="<?= esc_attr( $oyk_domain ) ?>">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
-  <meta property="og:description" content="Mustafa Akgül Özgür Yazılım 2026 Kış Kampı, Afyon Kocatepe Üniversitesi Ahmet Necdet Sezer Kampüsü’nde" />
-  <meta property="og:url" content="<?=home_url( $wp->request )?>" />
-  <meta property="og:image" content="<?= esc_url( $oyk_amblem ) ?>" />
+  <meta property="og:title" content="<?= $oyk_baslik ?>" />
+  <meta property="og:description" content="<?= $oyk_aciklama ?>" />
+  <meta property="og:url" content="<?= $oyk_url ?>" />
+  <meta property="og:image" content="<?= $oyk_amblem ?>" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
