@@ -17,9 +17,9 @@
   <meta charset="UTF-8">
    
   <?php
-    $oyk_aciklama = esc_attr( get_option( ‘oyk_site_aciklama’, ‘’ ) );
-    $oyk_amblem   = esc_url( get_option( ‘oyk_amblem_url’, get_template_directory_uri() . ‘/assets/images/oyk2026kis-logo-kare.png’ ) );
-    $oyk_baslik   = esc_attr( get_option( ‘oyk_site_baslik’, ‘’ ) ?: get_bloginfo( ‘name’ ) );
+    $oyk_aciklama = esc_attr( get_option( 'oyk_site_aciklama', '' ) );
+    $oyk_amblem   = esc_url( get_option( 'oyk_amblem_url', get_template_directory_uri() . '/assets/images/oyk2026kis-logo-kare.png' ) );
+    $oyk_baslik   = esc_attr( get_option( 'oyk_site_baslik', '' ) ?: get_bloginfo( 'name' ) );
     $oyk_url      = esc_url( home_url( $wp->request ) );
     $oyk_domain   = parse_url( home_url(), PHP_URL_HOST );
   ?>
