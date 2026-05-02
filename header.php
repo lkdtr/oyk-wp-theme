@@ -20,14 +20,15 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
   <meta property="twitter:description" content="Mustafa Akgül Özgür Yazılım 2026 Kış Kampı, Afyon Kocatepe Üniversitesi Ahmet Necdet Sezer Kampüsü’nde" />
-  <meta property="twitter:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2026kis-logo-kare.png?2026-kis" />
+  <?php $oyk_amblem = get_option( 'oyk_amblem_url', get_template_directory_uri() . '/assets/images/oyk2026kis-logo-kare.png' ); ?>
+  <meta property="twitter:image" content="<?= esc_url( $oyk_amblem ) ?>" />
   <meta property="twitter:url" content="<?=home_url( $wp->request )?>" />
   <meta property="twitter:domain" content="kamp.linux.org.tr">
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); bloginfo( 'name' ); ?>" />
   <meta property="og:description" content="Mustafa Akgül Özgür Yazılım 2026 Kış Kampı, Afyon Kocatepe Üniversitesi Ahmet Necdet Sezer Kampüsü’nde" />
   <meta property="og:url" content="<?=home_url( $wp->request )?>" />
-  <meta property="og:image" content="<?php bloginfo("template_url"); ?>/assets/images/oyk2026kis-logo-kare.png?2026-kis" />
+  <meta property="og:image" content="<?= esc_url( $oyk_amblem ) ?>" />
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/assets/css/font-awesome.min.css">
@@ -56,12 +57,16 @@
       </div>
       <div class="header-logo-list col-md-6 col-xs-12">
         <div class="pull-right pull-right-xs">
-          <a href="http://www.lkd.org.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/tlkd.png?v2" height="100" width="100" alt="">
-          </a>
-          <a href="http://www.ibu.edu.tr/" target="_blank">
-            <img src="<?php bloginfo("template_url"); ?>/assets/images/aku.png?v3"  height="100" width="100" alt="">
-          </a>
+          <?php foreach ( get_option( 'oyk_partner_logolar', array() ) as $partner ) : ?>
+            <?php if ( empty( $partner['gorsel'] ) ) continue; ?>
+            <?php if ( ! empty( $partner['link'] ) ) : ?>
+              <a href="<?= esc_url( $partner['link'] ) ?>" target="_blank">
+                <img src="<?= esc_url( $partner['gorsel'] ) ?>" height="100" width="100" alt="<?= esc_attr( $partner['alt'] ?? '' ) ?>">
+              </a>
+            <?php else : ?>
+              <img src="<?= esc_url( $partner['gorsel'] ) ?>" height="100" width="100" alt="<?= esc_attr( $partner['alt'] ?? '' ) ?>">
+            <?php endif; ?>
+          <?php endforeach; ?>
         </div>
       </div>
     </div>
